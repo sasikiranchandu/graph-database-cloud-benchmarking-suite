@@ -485,10 +485,8 @@ The completed source code is maintained in a GitHub repository.
 * Assignment submission subject format:
 
 ```text
-CognoDB Assignment 1 - <Your Name>
+CognoDB Assignment 1 - sasikiran
 ```
-
-* Submission should be completed within the timeframe specified in the assignment instructions.
 
 ## Security and Credentials
 
@@ -512,10 +510,5 @@ COGNODB_USERNAME
 COGNODB_PASSWORD
 ```
 
-Actual credential values must never be committed to GitHub.
-
-The `.env` file and other local credential/configuration files are excluded through `.gitignore`.
-
-Before submitting the repository, verify that no passwords, tokens, private connection strings, or other sensitive information are present in the Git history.
 
 
