@@ -471,3 +471,51 @@ Java Backend Developer
 # Project Purpose
 
 This project was developed as a **graph database benchmarking assignment** to study and compare the performance characteristics of multiple graph database platforms using a standardized dataset and benchmarking methodology.
+
+# Submission
+
+This project was completed as part of the **Wexa AI Candidate Take-Home Assignment**.
+
+The completed source code is maintained in a GitHub repository.
+
+## Submission Requirements
+
+* GitHub repository containing the completed project.
+* Repository URL submitted to the designated HR contact.
+* Assignment submission subject format:
+
+```text
+CognoDB Assignment 1 - <Your Name>
+```
+
+* Submission should be completed within the timeframe specified in the assignment instructions.
+
+## Security and Credentials
+
+**No database passwords, API keys, access tokens, or private connection URIs are included in this repository.**
+
+Database credentials and connection details must be provided through environment variables or local configuration.
+
+For example:
+
+```text
+NEO4J_URI
+NEO4J_USERNAME
+NEO4J_PASSWORD
+
+ARANGODB_URI
+ARANGODB_USERNAME
+ARANGODB_PASSWORD
+
+COGNODB_URI
+COGNODB_USERNAME
+COGNODB_PASSWORD
+```
+
+Actual credential values must never be committed to GitHub.
+
+The `.env` file and other local credential/configuration files are excluded through `.gitignore`.
+
+Before submitting the repository, verify that no passwords, tokens, private connection strings, or other sensitive information are present in the Git history.
+
+
