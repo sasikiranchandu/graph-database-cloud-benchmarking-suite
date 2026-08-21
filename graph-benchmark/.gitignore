@@ -1,0 +1,28 @@
+# Maven
+target/
+
+# Java compiled files
+*.class
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Environment / secrets
+.env
+.env.*
+
+# Generated benchmark output
+results.json
+
+# Logs
+*.log
+
+# Dataset
+wiki-Vote.txt
+wiki-Vote.txt.gz
